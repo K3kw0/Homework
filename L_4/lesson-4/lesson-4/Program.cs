@@ -6,7 +6,6 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace lesson_4
 {
     //// 1. Написать метод GetFullName(string firstName, string lastName, string patronymic),
@@ -85,6 +84,21 @@ namespace lesson_4
     //        Autumn
     //    }
 
+    //    static void WhichSeason(int a)
+    //    {
+    //        switch (a)
+    //        {
+    //            case (int)Seasons.Winter: Console.WriteLine("Зима"); break;
+    //            case (int)Seasons.Spring: Console.WriteLine("Весна"); break;
+    //            case (int)Seasons.Summer: Console.WriteLine("Лето"); break;
+    //            case (int)Seasons.Autumn: Console.WriteLine("Осень"); break;
+    //            case 0: break;
+    //            default:
+    //                Console.WriteLine("Ошибка: введите число от 1 до 12");
+    //                break;
+    //        }
+    //    }
+
     //    static void Main(string[] args)
     //    {
     //        Console.WriteLine("Нажав 0, программа завершит свою работу");
@@ -93,17 +107,7 @@ namespace lesson_4
     //        {
     //            Console.Write("Номер месяца --> ");
     //            a = int.Parse(Console.ReadLine());
-    //            switch (a)
-    //            {
-    //                case (int)Seasons.Winter: Console.WriteLine("Зима"); break;
-    //                case (int)Seasons.Spring: Console.WriteLine("Весна"); break;
-    //                case (int)Seasons.Summer: Console.WriteLine("Лето"); break;
-    //                case (int)Seasons.Autumn: Console.WriteLine("Осень"); break;
-    //                case 0: break;
-    //                default:
-    //                    Console.WriteLine("Ошибка: введите число от 1 до 12");
-    //                    break;
-    //            }
+    //            WhichSeason(a);
     //        } while (a != 0);
     //    }
     //}
